@@ -6,6 +6,7 @@ Monese iOS home assignment template
 The purpose of this test is to see what is your approach to problem solving and how you conduct it.
 The requirements for this test are simple so no need for elaborate solutions.
 Some parts of the application are already implemented for you but feel free to improve them how you see fit.
+Use `make` to generate the project file.
 
 ### Business Requirements
 
