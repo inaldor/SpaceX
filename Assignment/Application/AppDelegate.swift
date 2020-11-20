@@ -11,10 +11,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ) -> Bool {
 
         window = UIWindow()
-        let rootViewController = UIViewController()
-        rootViewController.view.backgroundColor = .yellow
-        window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
+
+        let home = HomeRouter().buildModule(navController: UINavigationController())
+        window?.rootViewController = home
 
         return true
     }
