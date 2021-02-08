@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 class HomePresenter {
 
@@ -20,11 +20,12 @@ class HomePresenter {
 extension HomePresenter: HomePresenterInput {
 
     func viewDidLoad() {
+        
         interactor.getListOfLaunches()
     }
 
-    func selectedLaunch(flightNumber: String) {
-        router.routeToDetails(flightNumber: flightNumber)
+    func selectedLaunch(navigationController: UINavigationController, selectedLaunch: Launch) {
+        router.routeToDetails(navigationController: navigationController, selectedLaunch: selectedLaunch)
     }
 }
 

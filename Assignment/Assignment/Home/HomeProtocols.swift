@@ -1,8 +1,8 @@
-import Foundation
+import UIKit
 
 protocol HomePresenterInput: AnyObject {
     func viewDidLoad()
-    func selectedLaunch(flightNumber: String)
+    func selectedLaunch(navigationController: UINavigationController, selectedLaunch: Launch)
 }
 
 protocol HomePresenterOutput: AnyObject {
@@ -19,5 +19,5 @@ protocol HomeInteractorOutput: AnyObject {
 }
 
 protocol HomeRouting: AnyObject {
-    func routeToDetails(flightNumber: String)
+    func routeToDetails(navigationController: UINavigationController, selectedLaunch: Launch)
 }

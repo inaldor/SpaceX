@@ -1,7 +1,7 @@
 import UIKit
 
 final class HomeRouter {
-
+    
     func buildModule(navController: UINavigationController) -> UIViewController {
         let viewController = HomeViewController()
         let interactor = HomeInteractor()
@@ -14,13 +14,17 @@ final class HomeRouter {
         interactor.presenter = presenter
         navController.pushViewController(viewController, animated: true)
 
-
-
         return navController
     }
 }
 
 extension HomeRouter: HomeRouting {
 
-    func routeToDetails(flightNumber: String) {}
+    func routeToDetails(navigationController: UINavigationController, selectedLaunch: Launch) {
+        
+        let launchDetailsModule = LaunchDetailsRouter().createLaunchDetailsModule(selectedLaunch: selectedLaunch)
+        
+        navigationController.pushViewController(launchDetailsModule, animated: true)
+
+    }
 }
