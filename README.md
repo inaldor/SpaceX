@@ -14,18 +14,13 @@ This app aims to keep the user informed about the latest SpaceX launches using t
 
 ## Pictures
 
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/homeempty.png" width=300>
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/listcurrencies1.png" width=300>
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/listcurrencies2.png" width=300>
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/listcurrenciesselected.png" width=300>
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/firspair.png" width=300>
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/manypairs1.png" width=300>
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/manypairs2.png" width=300>
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/manypairs3.png" width=300>
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/deleting1.png" width=300>
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/deleting2.png" width=300>
-<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/deleting3.png" width=300>
+<img src="https://github.com/inaldor/SpaceX/blob/development/images/Home1.png" width=300>
+<img src="https://github.com/inaldor/SpaceX/blob/development/images/Refreshing.png" width=300>
+<img src="https://github.com/inaldor/SpaceX/blob/development/images/home2.png" width=300>
+<img src="https://github.com/inaldor/SpaceX/blob/development/images/filteringbysuccessfu.png" width=300>
+<img src="https://github.com/inaldor/SpaceX/blob/development/images/details1.png" width=300>
+<img src="https://github.com/inaldor/SpaceX/blob/development/images/details2.png" width=300>
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/LICENSE)
+This project is licensed under the [MIT License](https://github.com/inaldor/SpaceX/blob/development/LICENSE)
