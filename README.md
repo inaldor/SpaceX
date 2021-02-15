@@ -1,31 +1,31 @@
-Monese iOS home assignment template
-==========
+# SpaceX
+An app to keep track of SpaceX launches
 
-## The purpose of this test
+## About
+This app aims to keep the user informed about the latest SpaceX launches using the open-source SpaceX-API. The user can filter the list of launches to show only successful launches, refresh the list of launches by swiping down or click on an item of the list to see more information about it. The app doesn't use any third-party libraries or frameworks.
 
-The purpose of this test is to see what is your approach to problem solving and how you conduct it.
-The requirements for this test are simple so no need for elaborate solutions.
-Some parts of the application are already implemented for you but feel free to improve them how you see fit.
-Use `make` to generate the project file.
+## Features
+* List of all launches of SpaceX along with launch date and mission name ordered by launch date
+* Refresh list of launches
+* Filter list to show only successful launches
+* Check more information about a specific launch
+* Good coverage on Tests, Integration and Unit(TODO)
+* A widget to inform the user about a new launch(TODO)
 
-### Business Requirements
+## Pictures
 
-Implement SpaceX launches informative application:
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/homeempty.png" width=300>
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/listcurrencies1.png" width=300>
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/listcurrencies2.png" width=300>
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/listcurrenciesselected.png" width=300>
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/firspair.png" width=300>
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/manypairs1.png" width=300>
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/manypairs2.png" width=300>
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/manypairs3.png" width=300>
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/deleting1.png" width=300>
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/deleting2.png" width=300>
+<img src="https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/app-images/deleting3.png" width=300>
 
-The application should use Open Source REST API that can be found here: https://github.com/r-spacex/SpaceX-API
+## License
 
-As a user, I want to see the list of launches, when I open the application.
-- For each launch in the list, next attributes should be displayed: mission name and launch date.
-
-As a user, I want to have the ability to refresh the list to see new launches.
-
-As a user, I want to have possibility to filter the list and see only successful launches.
-- Parameter “success” should be used for filtering data
-
-As a user, when I press on the launch in the list I want to see the next screen with rocket description
-
-The application should display a loading indicator when it is fetching relevant data.
-
-### Submitting the homework
-
-Please send us the link to your private repository with the source code.
+This project is licensed under the [MIT License](https://github.com/inaldor/XchangeXpert/blob/bugs/bugfixes/LICENSE)
